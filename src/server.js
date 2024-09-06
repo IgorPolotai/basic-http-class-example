@@ -30,5 +30,6 @@ const onRequest = (request, response) => {
 
 http.createServer(onRequest).listen(port, () => {
     console.log(`Server running on port ${port}`); //this is a callback function that fires after the server is created
-    //check to see that the server is running by typing localhost:3000 in a browser. Double tap ctrl+c to end a server in the command line
+    //check to see that the server is running by typing localhost:3000 in a browser. 
+    //Double tap ctrl+c to end a server in the command line
 });
